@@ -24,6 +24,15 @@ nav{
    text-align: center;
     
 }
+#joinlink{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    padding:.5em;
+}
 footer {/*makes thee footer fixed to the bottom of page*/
 	position: fixed;
 	width: 100%;
@@ -36,8 +45,8 @@ footer {/*makes thee footer fixed to the bottom of page*/
     padding-bottom: 10px;
     
 }
-img{
-    display:block; /*aligned img and added blue border*/
+#homeimg{
+    display:block; /*aligned img and added black border*/
     margin-left: auto;
     margin-right: auto;
     border: 5px solid;
@@ -56,25 +65,46 @@ h2{
     text-align: center;
 }
 .socmedicon{
+    display:block; /*aligned img and added blue border*/
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
     border-color:white;
     width:5em;
-    padding:1.5em;
+    padding:1em;
 }
 .iconli{
      display: inline;
-    background-color: none;
+    background-color: white;
     padding: .5em;
 }
 a.socialink{
     border: 5px solid;
-    border-color: blue; 
+    border-color: white; 
 }
 #contactp{
     text-align: center;
     font-weight: bold;
     padding: 1em;
-    
 }
-table{
-margin:auto;
+#tshirtsizediagram{
+    width:16em;
+}
+table {
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #1abc9c;
+  color: white;
 }
