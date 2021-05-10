@@ -1,0 +1,80 @@
+.header {
+  padding: 2em;;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 15px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    display: inline;
+    background-color: yellow;
+    padding: .5em;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav{
+   text-align: center;
+    
+}
+footer {/*makes thee footer fixed to the bottom of page*/
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color:black;
+	color: white;
+	text-align:center;
+    border-top: 5px solid black;
+    padding-bottom: 10px;
+    
+}
+img{
+    display:block; /*aligned img and added blue border*/
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+    border-color: black;
+    
+}
+.account{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    width: auto;
+    padding:2em;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.socmedicon{
+    border-color:white;
+    width:5em;
+    padding:1.5em;
+}
+.iconli{
+     display: inline;
+    background-color: none;
+    padding: .5em;
+}
+a.socialink{
+    border: 5px solid;
+    border-color: blue; 
+}
+#contactp{
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+    
+}
+table{
+margin:auto;
+}
