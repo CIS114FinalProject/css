@@ -24,15 +24,6 @@ nav{
    text-align: center;
     
 }
-#joinlink{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
-p{
-    padding:.5em;
-}
 footer {/*makes thee footer fixed to the bottom of page*/
 	position: fixed;
 	width: 100%;
@@ -43,68 +34,37 @@ footer {/*makes thee footer fixed to the bottom of page*/
 	text-align:center;
     border-top: 5px solid black;
     padding-bottom: 10px;
-    
 }
-#homeimg{
-    display:block; /*aligned img and added black border*/
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px solid;
-    border-color: black;
-    
-}
+
 .account{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     width: auto;
-    padding:2em;
-    justify-content: center;
-}
-h2{
+    padding: 2em;
     text-align: center;
 }
-.socmedicon{
-    display:block; /*aligned img and added blue border*/
-    margin-left: auto;
-    margin-right: auto;
-    border: 5px solid;
-    border-color:white;
-    width:5em;
-    padding:1em;
-}
-.iconli{
-     display: inline;
-    background-color: white;
-    padding: .5em;
-}
-a.socialink{
-    border: 5px solid;
-    border-color: white; 
-}
-#contactp{
+
+h2 {
     text-align: center;
-    font-weight: bold;
+}
+table{
+    justify-self: center;
+    margin: auto auto;
+}
+
+#products{
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding-top: 2em;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+body{
+    padding-bottom: 5em;
+    text-align: center;
+}
+td, th{
     padding: 1em;
-}
-#tshirtsizediagram{
-    width:16em;
-}
-table {
-  border-collapse: collapse;
-  margin-left:auto;
-  margin-right:auto;
-  
-}
-
-th, td {
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even){background-color: #f2f2f2}
-
-th {
-  background-color: #1abc9c;
-  color: white;
 }
