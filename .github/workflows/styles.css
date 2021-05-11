@@ -51,6 +51,7 @@ h2 {
 table{
     justify-self: center;
     margin: auto auto;
+    border-top: 1px solid lightgrey
 }
 
 #products{
@@ -65,6 +66,19 @@ body{
     padding-bottom: 5em;
     text-align: center;
 }
-td, th{
+#products td, th{
     padding: 1em;
+}
+td img{
+    padding-top: 1em;
+}
+.Filter{
+    display: flex;
+    justify-content: center;
+}
+.Gender{
+    padding-right: .5em;
+}
+.Size{
+    padding-left: .5em;
 }
